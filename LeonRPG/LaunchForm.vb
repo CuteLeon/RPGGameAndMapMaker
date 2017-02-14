@@ -7,9 +7,14 @@ Public Class LaunchForm
     '数据结构：使用图像存储地图
     '   图像尺寸即地图单元格规模
     '   R通道储存地图层元素标识
-    '   G通道储存活动层元素标识
+    '   G通道暂留
     '   B通道储存遮罩层元素标识
-    '   A通道储存是否可以站立(0:可以进入，1:不可进入；因为初始化数组时默认付志伟0，默认可进入)
+    '   A通道暂留
+
+    'TODO:数据结构重构：
+    '   R通道用于储存地图层元素标识（图块数量不可超过一个字节）
+    '   G通道和B通道合并为Int16结构用于储存遮罩层元素标识（图块数量不可超过两个字节）
+    '   A通道一个字节拆分为8位（BitArray），前四位储存是否可以向四个方向移动，后四位储存是否存在洞穴或门或道具等
 
     Private Const MapCount As Integer = 67 '（0-66）
     Private Const MaskCount As Integer = 253 '(1-253)
@@ -17,8 +22,6 @@ Public Class LaunchForm
     Dim MapWidth As Integer '地图规模宽度
     Dim MapHeight As Integer '地图规模高度
     Dim MapBitmap As Bitmap '渲染后的可视化地图层
-    'Dim ActiveBitmap As Bitmap '渲染后的可视化活动层
-    'Dim MaskBitmap As Bitmap '渲染后的可视化遮罩层
     Dim MapDatas() As Byte '从内存中读取的地图数据字节数组（四个字节为一个分组，分组内通道顺序：R、G、B、A）
     Dim MouseDownLocation As Point '记录鼠标在地图显示控件上按下时的位置，用于拖动
     Dim ZoomRate As Single = 1.0 '缩放倍率
@@ -107,8 +110,6 @@ Public Class LaunchForm
         MapWidth = 0
         MapHeight = 0
         MapBitmap = Nothing
-        'ActiveBitmap = Nothing
-        'MaskBitmap = Nothing
         Erase MapDatas
         MouseDownLocation = Point.Empty
         ZoomRate = 1.0
@@ -215,7 +216,7 @@ Public Class LaunchForm
         Dim DataUBound As Integer = MapData.Height * Data.Stride - 1
         Marshal.Copy(MapDatas, 0, Data.Scan0, DataUBound)
         MapData.UnlockBits(Data)
-        MapData.Save(MapFilePath)
+        MapData.Save(MapFilePath, ImageFormat.Png)
         Data = Nothing
         MapData = Nothing
     End Sub
