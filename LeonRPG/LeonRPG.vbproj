@@ -1,0 +1,1138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3BD10D2C-013A-4061-8996-4B4218877B9A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LeonRPG.My.MyApplication</StartupObject>
+    <RootNamespace>LeonRPG</RootNamespace>
+    <AssemblyName>LeonRPG</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LeonRPG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LeonRPG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameResource.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GameResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LaunchForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaunchForm.Designer.vb">
+      <DependentUpon>LaunchForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GameResource.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GameResource.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaunchForm.resx">
+      <DependentUpon>LaunchForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaunchMenuBGI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MsgboxBGI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameFormBGI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameButton_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameButton_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameButton_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_68.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_77.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_78.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_79.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_83.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_84.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_85.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_86.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_88.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_89.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_97.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_98.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_108.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_117.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_119.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_127.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_129.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_130.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_137.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_139.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_140.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_143.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_147.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_148.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_152.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_153.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_154.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_157.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_159.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_160.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_166.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_167.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_168.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_169.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_170.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_172.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_174.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_176.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_177.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_178.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_179.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_183.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_185.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_186.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_187.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_188.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_189.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_190.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_192.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_195.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_196.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_198.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_203.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_204.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_206.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_208.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_209.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_210.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_214.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_215.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_218.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_219.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_220.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_224.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_225.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_227.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_230.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_236.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_237.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_238.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_239.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_243.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_244.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_246.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_249.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_252.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_254.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask_255.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MsgboxButton_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MsgboxButton_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MsgboxButton_2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

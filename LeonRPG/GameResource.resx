@@ -1,0 +1,1108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GameButton_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GameButton_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameButton_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GameButton_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameButton_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GameButton_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameFormBGI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GameFormBGI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LaunchMenuBGI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LaunchMenuBGI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Map_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_102.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_106.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_109.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_113.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_114.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_115.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_117.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_118.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_119.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_124.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_126.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_127.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_129.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_131.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_134.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_135.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_139.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_140.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_143.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_145.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_146.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_147.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_148.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_152" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_152.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_153" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_153.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_154" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_154.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_155" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_155.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_156" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_156.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_157" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_157.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_158" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_158.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_159" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_159.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_161.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_162" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_162.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_163" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_163.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_165" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_165.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_166.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_167" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_167.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_168" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_168.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_169" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_169.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_170" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_170.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_172" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_172.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_173" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_173.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_174" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_174.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_175" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_175.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_176" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_176.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_177" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_177.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_178" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_178.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_179" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_179.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_180.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_181.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_182" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_182.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_183" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_183.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_184" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_184.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_185" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_185.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_186.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_187" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_187.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_188" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_188.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_189" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_189.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_190" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_190.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_192.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_193" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_193.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_194.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_195" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_195.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_196" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_196.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_197" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_197.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_198" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_198.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_199.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_202.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_203.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_204" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_204.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_205" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_205.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_206" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_206.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_207" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_207.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_208" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_208.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_209" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_209.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_210.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_213.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_214" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_214.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_215" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_215.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_216" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_216.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_217" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_217.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_218" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_218.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_219" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_219.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_220.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_224" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_224.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_225.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_226" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_226.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_227.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_228" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_228.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_229.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_230" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_230.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_232.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_233.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_235" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_235.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_236" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_236.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_237" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_237.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_238" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_238.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_239.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_242.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_243" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_243.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_244" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_244.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_245.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_246" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_246.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_247" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_247.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_249" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_249.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_251.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_252.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_69.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_77.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_87.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_88.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_89.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_95.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_97.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mask_99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgboxBGI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MsgboxBGI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgboxButton_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MsgboxButton_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgboxButton_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MsgboxButton_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgboxButton_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MsgboxButton_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
